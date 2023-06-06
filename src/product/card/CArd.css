@@ -1,0 +1,23 @@
+.card {
+  width: 30%;
+  background-color: rgb(211, 211, 211);
+  padding: 20px;
+}
+.card img {
+  width: 100%;
+  height: 250px;
+}
+.card h1 {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card p {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
