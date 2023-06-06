@@ -5,11 +5,7 @@ import Product from "./product/Product";
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/product" element={<Product />} />
-        </Routes>
-      </BrowserRouter>
+      <h1>hello </h1>
     </div>
   );
 }
