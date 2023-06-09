@@ -1,0 +1,23 @@
+.card {
+}
+.card-mini {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.card-mini-photo {
+  width: 50%;
+}
+.mini-photo-img {
+  width: 100%;
+}
+.card-mini-box {
+  width: 50%;
+}
+p {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

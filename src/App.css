@@ -1,0 +1,32 @@
+.evbox {
+  background: #f5f5f5;
+  border-radius: 4px;
+  display: grid;
+  grid-template-areas:
+    "first first second"
+    "third third second";
+  grid-template-columns: 33.33333% 33.33333% 33.33333%;
+}
+.evbox .card:nth-child(1) {
+  grid-area: first;
+}
+.evbox .card:nth-child(2) {
+  grid-area: second;
+}
+.evbox .card:nth-child(3) {
+  grid-area: third;
+}
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.evbox .card:nth-child(2) .card-mini-photo {
+  height: 50%;
+  width: 100%;
+}
+.evbox .card:nth-child(3) .card-mini-photo {
+  order: 2;
+}
+h1 {
+  font-size: 15px;
+}
